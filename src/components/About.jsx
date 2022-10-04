@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import about from "../assets/about.jpg"
 
 const About = () => {
     return (
@@ -14,7 +15,7 @@ const About = () => {
                         <NavLink to="/contact" className="btn btn-dark px-3">Contact Us</NavLink>
                     </div>
                     <div className="col-md-6 d-flex justify-content-center">
-                        <img src="./assets/about.jpg" alt="About Us" height="400px" width="400px" />
+                        <img src={about} alt="About Us" height="400px" width="400px" />
                     </div>
                 </div>
             </div>
